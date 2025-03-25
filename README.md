@@ -9,7 +9,7 @@
 
 ## 📌 References
 
-- 🔗 Deployment Link : [**Albaform**](https://www.albaform.store/)
+- 🔗 Deployment Link : [**Albaform**](https://www.albaform10.vercel.app/)
 - 🎇 Dev Docs Link : [**Albaform-Notion**](https://jsh-note.notion.site/Albaform-15577eb7f18580a5b54ae0d0836e7f0b)
 
 <br />

@@ -2,7 +2,7 @@ export const BE_BASE_URL = 'https://fe-project-albaform.vercel.app/10-4';
 
 export const FE_BASE_URL =
   process.env.NODE_ENV === 'production'
-    ? 'https://www.albaform.store'
+    ? 'https://www.albaform10.vercel.app'
     : 'http://localhost:3000';
 
 export const OAUTH_REDIRECT_URI = `${FE_BASE_URL}/oauth/kakao`;

@@ -45,7 +45,8 @@ const FloatingActions = ({
         title,
         description,
         imageUrl:
-          imageUrls?.[0] || 'https://www.albaform.store/images/opengraph.png',
+          imageUrls?.[0] ||
+          'https://www.albaform10.vercel.app/images/opengraph.png',
         link: {
           mobileWebUrl: location.href,
           webUrl: location.href,
