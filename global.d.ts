@@ -18,6 +18,28 @@ declare namespace daum {
 
 declare namespace kakao.maps {
   function load(callback: () => void): void;
+  interface MapOptions {
+    center: LatLng;
+    level: number;
+  }
+
+  interface MarkerOptions {
+    position: LatLng;
+    map: Map;
+  }
+
+  class LatLng {
+    constructor(lat: number, lng: number);
+  }
+
+  class Map {
+    constructor(container: HTMLElement, options: MapOptions);
+    getCenter(): LatLng;
+  }
+
+  class Marker {
+    constructor(options: MarkerOptions);
+  }
 
   namespace services {
     const Status: {

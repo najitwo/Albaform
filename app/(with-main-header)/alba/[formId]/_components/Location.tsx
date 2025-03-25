@@ -1,8 +1,8 @@
 'use client';
 
 import { Alba } from '@/types/alba';
-import GoogleMap from '@/app/(with-main-header)/alba/[formId]/_components/GoogleMap';
 import { toast } from 'react-toastify';
+import KakaoMap from './KakaoMap';
 
 type LocationProps = Pick<Alba, 'location'>;
 
@@ -36,7 +36,7 @@ const Location = ({ location }: LocationProps) => {
         </button>
       </div>
       <div className="mt-4 lg:mt-12 w-full h-[210px]">
-        <GoogleMap lat={Number(lat)} lng={Number(lng)} />
+        <KakaoMap lat={Number(lat)} lng={Number(lng)} />
       </div>
     </section>
   );
